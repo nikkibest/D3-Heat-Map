@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+}
+
+.container {
+  margin: 0px auto;
+  padding-top: 0px;
+  width: 1200px;
+  height: 600px;
+}
+.container .axis {
+  font-size: smaller;
+}/*# sourceMappingURL=style.css.map */
