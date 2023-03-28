@@ -1,14 +1,38 @@
 body {
   text-align: center;
-  font-family: "Helvetica", sans-serif;
+  font-family: sans-serif, "Helvetica";
 }
 
 .container {
   margin: 0px auto;
   padding-top: 0px;
-  width: 1200px;
-  height: 600px;
+  width: 1500px;
+  height: 800px;
+  border: solid 3px;
+  border-radius: 10%;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 100px rgb(0, 0, 0);
 }
 .container .axis {
   font-size: smaller;
+}
+
+.ylabelText, .xlabelText {
+  font-style: bold;
+  font-size: 20px;
+}
+
+.titleText {
+  font-style: bold;
+  font-size: 30px;
+}
+
+.supTitleText {
+  font-style: bold;
+  font-size: 25px;
+}
+
+.border {
+  border: 2px solid;
 }/*# sourceMappingURL=style.css.map */
